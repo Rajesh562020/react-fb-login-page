@@ -75,14 +75,17 @@ const Login = () => {
               onChange={(e)=>handleInputChange(e)}
             />
             <button className="login-button" onClick={handleLogin} >Log in</button>
-            <a href="#" className="forgot-password">
+            {/* <a href="#" className="forgot-password">
               Forgotten password?
-            </a>
+            </a> */}
+            <button className="forgot-password">Forgotten password?</button>
             <div className="divider" />
             <button className="create-account-button">Create new account</button>
           </div>
           <p className="create-page-text">
-            <a href="#" className="create-page-link">Create a Page</a> for a celebrity, brand or business.
+            {/* <a href="#" className="create-page-link">Create a Page</a> */}
+            <button className="create-page-link">Create a Page</button>
+             for a celebrity, brand or business.
           </p>
         </div>
       </div>
